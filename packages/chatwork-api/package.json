@@ -4,7 +4,7 @@
   "jsnext:main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.17.1",
+    "axios": "0.18.0",
     "qs": "6.5.1"
   }
 }
