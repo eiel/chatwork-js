@@ -1,0 +1,16 @@
+{
+  "name": "@eiel/chatwork",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/eiel/chatwork-js",
+  "author": "Tomohiko Himura <eiel.hal@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.74.0",
+    "lerna": "^2.11.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@eiel/chatwork-api",
+  "version": "0.0.1",
+  "jsnext:main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.17.1",
+    "qs": "6.5.1"
+  }
+}
