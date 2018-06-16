@@ -5,15 +5,26 @@
   "repository": "https://github.com/eiel/chatwork-js",
   "author": "Tomohiko Himura <eiel.hal@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "yarn lint",
+    "lint": "eslint '**/*.js'"
+  },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.51",
     "@babel/core": "7.0.0-beta.51",
     "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.51",
     "@babel/preset-env": "7.0.0-beta.51",
     "@babel/preset-flow": "7.0.0-beta.51",
+    "babel-eslint": "^8.2.3",
     "cz-conventional-changelog": "2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "flow-bin": "0.74.0",
-    "lerna": "2.11.0"
+    "lerna": "2.11.0",
+    "prettier": "^1.13.5"
   },
   "config": {
     "commitizen": {
