@@ -6,10 +6,11 @@
   "author": "Tomohiko Himura <eiel.hal@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "6.26.0",
-    "babel-plugin-transform-object-rest-spread": "6.26.0",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-flow": "6.23.0",
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-flow": "^7.0.0-beta.51",
     "cz-conventional-changelog": "2.1.0",
     "flow-bin": "0.74.0",
     "lerna": "2.11.0"
