@@ -1,0 +1,6 @@
+{
+  "name": "@eiel/chatwork-oauth",
+  "version": "0.0.1",
+  "jsnext:main": "index.js",
+  "license": "MIT"
+}
