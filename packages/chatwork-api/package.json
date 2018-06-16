@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "axios": "0.18.0",
-    "qs": "6.5.1"
+    "qs": "6.5.2"
   }
 }
