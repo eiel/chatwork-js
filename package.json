@@ -5,6 +5,9 @@
   "repository": "https://github.com/eiel/chatwork-js",
   "author": "Tomohiko Himura <eiel.hal@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint '**/*.js'"
+  },
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.51",
     "@babel/core": "7.0.0-beta.51",
