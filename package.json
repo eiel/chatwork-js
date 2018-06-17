@@ -6,7 +6,7 @@
   "author": "Tomohiko Himura <eiel.hal@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "yarn lint",
+    "test": "yarn lint && flow",
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
