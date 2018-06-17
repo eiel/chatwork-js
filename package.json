@@ -6,6 +6,7 @@
   "author": "Tomohiko Himura <eiel.hal@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "koa-example:dev": "nodemon --exec 'babel-node examples/koa-example/index.js'",
     "test": "yarn lint && flow",
     "lint": "eslint '**/*.js'"
   },
@@ -25,6 +26,7 @@
     "eslint-plugin-prettier": "2.6.0",
     "flow-bin": "0.74.0",
     "lerna": "2.11.0",
+    "nodemon": "1.17.5",
     "prettier": "1.13.5"
   },
   "config": {
