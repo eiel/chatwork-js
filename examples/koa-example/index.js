@@ -1,12 +1,19 @@
 // @flow
-import process from 'process';
 import Koa from 'koa';
 import KoaChatwork from '@eiel/koa-chatwork';
 
 const app = new Koa();
 
 const id = process.env.CHATWORK_OAUTH_CLIENT_ID;
+if (!id) {
+  throw new Error('undefiend environment variable CHATWORK_OAUTH_CLIENT_ID');
+}
 const secret = process.env.CHATWORK_OAUTH_CLIENT_SECRET;
+if (!secret) {
+  throw new Error(
+    'undefiend environment variable CHATWORK_OAUTH_CLIENT_SECRET',
+  );
+}
 const client = {
   id,
   secret,
