@@ -1,4 +1,5 @@
-import type { Middleware } from 'koa';
+// @flow
+import type { Middleware, Context } from 'koa';
 
 export const createAuthMiddleware = (options: {
   scope: string[],
@@ -8,7 +9,7 @@ export const createAuthMiddleware = (options: {
   const uri = oauth2.authorizationCode.authorizeURL({
     scope,
   });
-  return async (ctx /* , next */) => ctx.redirect(uri);
+  return (ctx: Context /* , next */) => ctx.redirect(uri);
 };
 
 export default createAuthMiddleware;

@@ -18,8 +18,8 @@ const client = {
   id,
   secret,
 };
-const { AuthMiddleware } = KoaChatwork(client);
-app.use(AuthMiddleware({ scope: ['users.profile.me:read'] }));
+
+app.use(KoaChatwork({ client }));
 
 app.use(async (ctx) => {
   ctx.body = 'Hello World';
