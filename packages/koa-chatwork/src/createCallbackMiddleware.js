@@ -20,6 +20,10 @@ export const createCallbackMiddleware = ({ oauth2 }): Middleware => async (
   };
   const result = await oauth2.authorizationCode.getToken(tokenConfig);
   const accessToken = oauth2.accessToken.create(result);
+  if (!ctx.session || typeof ctx.session !== 'object') {
+    throw new Error('use koa-session');
+  }
+  ctx.session.chatwork = accessToken;
   ctx.redirect('/');
   return next();
 };
