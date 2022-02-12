@@ -7,6 +7,6 @@
     "@eiel/chatwork-oauth": "^0.0.1",
     "koa": "2.7.0",
     "simple-oauth2": "2.2.1",
-    "url-parse": "1.4.7"
+    "url-parse": "1.5.2"
   }
 }
