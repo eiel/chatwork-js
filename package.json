@@ -10,12 +10,12 @@
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
-    "@babel/cli": "7.17.10",
-    "@babel/core": "7.17.10",
-    "@babel/node": "7.17.10",
-    "@babel/plugin-proposal-object-rest-spread": "7.17.3",
-    "@babel/preset-env": "7.17.10",
-    "@babel/preset-flow": "7.16.7",
+    "@babel/cli": "7.20.7",
+    "@babel/core": "7.20.12",
+    "@babel/node": "7.20.7",
+    "@babel/plugin-proposal-object-rest-spread": "7.20.7",
+    "@babel/preset-env": "7.20.2",
+    "@babel/preset-flow": "7.18.6",
     "babel-eslint": "10.1.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.14.0",
