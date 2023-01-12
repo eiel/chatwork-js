@@ -6,7 +6,7 @@
   "dependencies": {
     "@eiel/chatwork-oauth": "^0.0.1",
     "koa": "2.7.0",
-    "simple-oauth2": "4.3.0",
+    "simple-oauth2": "5.0.0",
     "url-parse": "1.5.10"
   }
 }
