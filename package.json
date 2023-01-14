@@ -25,7 +25,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "flow-bin": "0.196.3",
     "lerna": "6.4.1",
-    "prettier": "2.7.1"
+    "prettier": "2.8.3"
   },
   "config": {
     "commitizen": {
