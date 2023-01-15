@@ -23,7 +23,7 @@
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.27.4",
     "eslint-plugin-prettier": "4.2.1",
-    "flow-bin": "0.196.3",
+    "flow-bin": "0.197.0",
     "lerna": "6.4.1",
     "prettier": "2.8.3"
   },
