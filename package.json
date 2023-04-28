@@ -10,11 +10,11 @@
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
-    "@babel/cli": "7.21.0",
-    "@babel/core": "7.21.4",
+    "@babel/cli": "7.21.5",
+    "@babel/core": "7.21.5",
     "@babel/node": "7.20.7",
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
-    "@babel/preset-env": "7.21.4",
+    "@babel/preset-env": "7.21.5",
     "@babel/preset-flow": "7.21.4",
     "@babel/eslint-parser": "7.21.3",
     "cz-conventional-changelog": "3.3.0",
