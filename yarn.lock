@@ -3273,10 +3273,10 @@ flatted@^3.1.0:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
-flow-bin@0.215.0:
-  version "0.215.0"
-  resolved "https://registry.npmjs.org/flow-bin/-/flow-bin-0.215.0.tgz"
-  integrity sha512-oleH4I3o1moLjN8wwfiiD4H9VVhgq6EP7y3xcrQaBMm0/qiYSmnhcSnqcDnc2KPTI9a+X2Z5BWSbO/lXeRTW5A==
+flow-bin@0.217.0:
+  version "0.217.0"
+  resolved "https://registry.npmjs.org/flow-bin/-/flow-bin-0.217.0.tgz"
+  integrity sha512-AbbDE6QUpR+jpY9ejNROAk0P5D/2PxJzjU4D5vfmMwtS+QjjPjzfZGuatEJIn2k4PTZ2agbncaCtyHGO0AvG7A==
 
 follow-redirects@^1.15.0:
   version "1.15.2"
